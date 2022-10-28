@@ -1,5 +1,5 @@
 :root {
-  --header-background: #ffffff;
+  --page-background: #ffffff;
   --header-border-bottom: #ececec;
   --page-service-background: #2f303a;
   --page-employers-background: #f5f4fa;
@@ -47,7 +47,7 @@ p {
 .page-navigation {
   padding-top: 24px;
   padding-bottom: 25px;
-  background-color: var(--header-background);
+  background-color: var(--page-background);
   border-bottom: 1px solid var(--header-border-bottom);
 }
 .page-logo {
@@ -213,7 +213,7 @@ p {
   margin-right: 30px;
 }
 .page-employers {
-  background-color: var(--page-employers-background);
+  background: var(--page-employers-background);
 }
 .our-team {
   font-size: 36px;
@@ -231,8 +231,15 @@ p {
   display: flex;
 }
 .employers-list {
+  text-align: center;
+  background-color: var(--page-background);
+  min-width: 270px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
   width: calc((100% - 3 * 30px) / 4);
   margin-right: 30px;
+  padding-bottom: 30px;
 }
 .employers-list:last-child {
   margin: 0;
@@ -241,7 +248,7 @@ p {
   font-weight: 500;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  padding-top: 30px;
+  margin-top: 30px;
   margin-bottom: 10px;
 }
 .employers-image {
@@ -251,14 +258,8 @@ p {
   color: var(--page-title-color);
   line-height: 1.17;
   letter-spacing: 0.03em;
-  padding-bottom: 30px;
 }
 .employers-subtitle {
-  text-align: center;
-  min-width: 270px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
 }
 
 .page-info {
