@@ -48,7 +48,7 @@ p {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: calc(30.52 / 26);
+  line-height: calc(31 / 26);
   letter-spacing: 0.03em;
   display: inline-block;
 }
@@ -80,8 +80,6 @@ p {
   padding-bottom: 25px;
   background-color: var(--header-background);
   border-bottom: 1px solid var(--header-border-bottom);
-}
-.page-logo {
 }
 .navigation-container {
   margin-left: 93px;
@@ -175,6 +173,7 @@ p {
   margin-bottom: 30px;
   border-bottom: 1px solid var(--card-border-color);
 }
+
 .cards-list:nth-child(3n + 1) {
   margin-left: 0;
 }
@@ -189,7 +188,9 @@ p {
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
-  padding: 20px 24px 4px 24px;
+  margin-top: 20px;
+  margin-bottom: 4px;
+  padding: 0px 24px;
 }
 .assortment-description {
   color: var(--assortment-description);
